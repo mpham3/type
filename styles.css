@@ -1,15 +1,34 @@
 /* Type */
 
 body {
-	background-color: white;
+	background-color: coral;
 	color: black;
 	font-family: sans-serif;
-	line-height: 0;
-    font-size: 5em;
+	line-height: 0.025;
+    font-size: 7em;
+    text-shadow: 10px 10px yellow;
+	opacity: 1;
+}
+main {
+    transform: scaleX(-1) skew(40deg, 10deg);
+    transform-style: unset;
+    transform: scale3d(2);
+    transform: rotateZ(130deg);
 }
 .new-color {
-	color: blue;
+	color: lightblue;
 }
 .other-font {
 	font-family: serif;
+	
+}
+.awful {
+	position: absolute;
+    top: 5em;
+    transform: rotate(90deg) scaleY(6.5);
+    font-family: georgia;
+    text-transform: lowercase;
+    font-style: italic, uppercase;
+    opacity: 0.75;
+    color: red;
 }
